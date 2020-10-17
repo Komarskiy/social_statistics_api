@@ -30,4 +30,4 @@ Send POST request with data for example:
         }`
 - `http://localhost:8000/posts_statistics/posts/{POST_ID}/latest/` - Get latest statistics for a specific post id
 - `http://localhost:8000/posts_statistics/users/{USER_ID}/latest/` - Get latest statistics for all posts of a specific user id
-- `http://localhost:8000/posts_statistics/users/8/average/` - Get average number of likes per day for a specific user id for the last 30 days.
+- `http://localhost:8000/posts_statistics/users/{USER_ID}/average/` - Get average number of likes per day for a specific user id for the last 30 days.
