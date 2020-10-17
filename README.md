@@ -10,10 +10,10 @@
 ### Without docker
 1. You need use postgreSQL on your machine and configure it:
     2.1. On your psql create db and user:
-       `CREATE DATABASE database_name_db;`
-       `CREATE USER username WITH password 'password';`
-       `GRANT ALL ON DATABASE database_name_db TO username;`
-       `ALTER USER username CREATEDB;`
+       -`CREATE DATABASE database_name_db;`
+       -`CREATE USER username WITH password 'password';`
+       -`GRANT ALL ON DATABASE database_name_db TO username;`
+       -`ALTER USER username CREATEDB;`
 2. Create config file `.env` in root of project. You can copy this from file `.env.example` with default values or set your values.
 4. Install requirements in your environment: `pip install -r requirements.txt`
 5. Apply migrations: `python manage.py migrate`
